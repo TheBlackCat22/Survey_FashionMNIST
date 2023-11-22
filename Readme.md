@@ -127,13 +127,5 @@ Classification report:
 
               
 ## Explainability
-- LIME
-  - Given an input, LIME identifies the top important (influential) principal components.
-  
-- Reverse PCA
-  - Set all principal components to 0 except the identified important ones.
-  - Conduct reverse PCA to see how the important principal components distribute in the ViT features.
-
-- Reverse ViT feature extraction
-  - Decode the extracted ViT features back to the original image.
-  - The important principal components identified by LIME would highlight the pixel intensities (i.e., important image segments).
+- SHAP
+  SHAP computes the marginal contribution of each feature (principal component) to the model output, both locally (regarding the output for one sample) and globally (regarding the outputs for all samples).
