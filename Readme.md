@@ -127,5 +127,5 @@ Classification report:
 
               
 ## Explainability
-- SHAP
+- SHAP \
   SHAP computes the marginal contribution of each feature (principal component) to the model output, both locally (regarding the output for one sample) and globally (regarding the outputs for all samples).
