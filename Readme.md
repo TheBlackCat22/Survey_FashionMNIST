@@ -1,5 +1,3 @@
-<h1 style="text-align:center;">ECEN 758 Project</h1>
-
 ## Setup
 1. Clone the repo
 ```
